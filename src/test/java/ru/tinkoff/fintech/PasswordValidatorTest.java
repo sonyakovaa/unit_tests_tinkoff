@@ -103,6 +103,13 @@ class PasswordValidatorTest {
         Assertions.assertEquals(result, actualResult);
     }
 
+    @Test
+    public void createPasswordValidator() {
+        new PasswordValidator();
+    }
+
+
+
 
 
 }
